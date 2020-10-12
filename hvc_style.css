@@ -1,0 +1,327 @@
+#wrapper{
+	
+	border:4px solid green;
+	max-width:1000px;
+	margin:0 auto;
+	width:auto;
+}
+ 
+ #header{
+	 height:auto;
+	 padding:10px;
+	 background:black;
+	border:2px solid yellow;	 
+ }
+ 
+ 
+ #header img{
+	height:30%;
+	float-left:center;
+
+	 border:2px solid red;
+	 
+ }
+ 
+ #menu{
+	  margin:0;
+	 padding:0;
+	 height:40px;
+	 background:linear-gradient(#00BAFF,#026F97);
+ }
+ 
+ #menu ul{
+	 
+	 margin:0;
+	 padding:0;
+	 list-style:none;
+	padding-top:9px;
+ }
+ 
+ #menu ul li{
+	 display:inline;
+	 padding:0 18px;
+	 height:auto;
+ }
+ 
+ #menu ul li a{
+	 
+	 color:#FFF;
+	 text-decoration:none;
+	 text-transform:uppercase;
+ }
+ 
+ #page{
+	 height:55px;
+	 margin-top:25px;
+	 border:0px solid yellow;
+	 
+ }
+ 
+ #ul{
+	 
+	 tex-decoration:none
+	 margin:0;
+	 padding:0;
+	
+	 
+	 }
+ 
+ #sidebar{
+	 width:20%;
+	 margin-left:0%;
+	float:top;
+	 float:left;
+	 text-decoration:none;
+	 height:auto;
+	 list-style:none;
+ }
+ 
+ .side_box a {
+	 background:#f1f1f1;
+	  text-decoration:none;
+	  margin-bottom:2%;
+	  margin-top:2%;
+	  box-sizing:border-box;
+	  
+	
+ }
+ 
+  .side_box ul {
+	
+	  text-decoration:none;
+	
+ }
+ 
+  .side_box li {
+
+	  text-decoration:none;
+	
+ }
+ 
+	 
+#content{
+
+	padding:2px 2px 2px;
+	 width:79%;
+	 float:right;
+	 background-color:none;
+	 height:auto;
+	
+	 }
+	 
+	 .footer{
+ height: 40px;
+    width: 1000px;
+    background: #33FF66;
+    clear: both;
+
+	 
+	 margin:0;
+	 padding:0;
+	 list-style:none;
+	 }
+	 
+	 
+	 .product_box{
+		 float:left;
+		 border-radius:4px;
+		 width:15%;
+		 border:1px solid #c8c8c8;
+		 padding:14px 14px 0px;
+		 text-align:center;
+		 margin-right:14%;
+
+	 
+	 }
+	 
+	 
+	 
+	 .product_box img {
+		max-width:100%;
+		border-radius:6px;
+		 
+	 }
+	 
+	 
+	 .product_box h2{
+		 font-weight:bold;
+		 color:#444;
+		 padding:10px;
+
+
+		 }
+		 
+	.product_box a{
+		text-decoration:none;
+
+	}	
+		 
+		 
+	.pro_img{
+		border:1px solid;
+		padding:10px;
+		box-sizing:border-box;
+	}
+	
+	.product_detail{
+		font-family:open sans;
+		
+	}
+		
+	.product_detail h1{
+		color:#618c04;
+		font-size:22px;
+		font-weight:bold;
+		border-bottom:1px solid;
+		padding-bottom:6px;
+	}
+	
+	.product_detail .desc{
+	
+		padding-top:4px;
+	
+	}
+
+	.product_detail .war{
+		color:red;
+		font-size:30px;
+		border-top:1px dashed #e2e2e2;
+		border-bottom:1px dashed #e2e2e2;
+		
+	}
+	
+
+	.product_detail .price{
+		
+		color:red;
+		font-size:20px;
+		font-weight:bold;
+	}
+	
+	.product_detail .cart_btn{
+		background:#618c04;
+		text-decoration:none;
+		color:#fff;
+		text-transform:uppercase;
+		letter-spacing:1px;
+		padding:10px 20px;
+		display:inline-block;
+		border:radius 2px;
+		
+	}
+	
+
+	
+	
+	
+.cart{
+
+		
+}
+
+
+.cart tr td{
+	border-right:1px solid #c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+	padding:5;
+}
+
+
+.category_box{
+	background: #000;
+	width: 48%;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 8px;
+	position: relative;
+	z-index:1;
+	}
+	.category_box:nth-of-type(even){
+		margin-right: 0;
+	}
+
+	.category_box img{
+		z-index:2;
+		max-width: 100%;
+		transition: all 0.6s;
+	}
+
+	
+
+.overly{
+/* width: 100%; */
+background-color: none;
+/* border: 1px solid red; */
+position: absolute;
+top: 10px;
+left: 10px;
+right: 10px;
+bottom: 10px;
+z-index:3;
+}
+
+.overly h3{
+display: table;
+width: 100%;
+text-align: center;
+color: #fff;
+height: 331px;
+background:none;
+top:0;
+right:0;
+left:0;
+bottom:0;
+z-index: 4;
+}
+
+.overly h3 a{
+/* z-index: 1; */
+	z-index: 5;
+	cursor: pointer;
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	display: table-cell;
+	vertical-align:middle; /*middle mins vartical align center is not work in center command only work of middle command*/	
+}
+
+.overly:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transform: scale(0,1);
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	transition: all 0.6s;
+	cursor: pointer;
+}
+
+
+.overly:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transform: scale(1,0);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	transition: all 0.6s;
+	z-index:5;
+}
+
+.category_box:hover .overly:before, .category_box:hover .overly:after{
+	transform: scale(1);
+	z-index:-1;
+
+}
+
+.category_box:hover img{
+		opacity: 0.6;
+	}
